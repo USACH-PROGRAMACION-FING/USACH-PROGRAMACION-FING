@@ -16,6 +16,19 @@ El propósito del presente documento es evidenciar, de la forma más clara posib
 Vale la pena tener en cuenta que algunas de las actividades de este curso deben ser completadas individualmente y otras en equipo. Si bien el documento está redactado en singular, haciendo referencia a la/al “estudiante” y “su trabajo”, en la práctica, para los trabajos en equipo, toda discusión e intercambio de código entre integrantes de este está permitida completamente **para esa actividad en particular**, más no entre integrantes de grupos distintos.  Toda entrega grupal debe identificar a todos los integrantes del equipo que efectivamente participaron en dicha actividad.
 </p>
 
+<p align="justify">
+El Código de honor que aquí se presenta ha sido desarrollado específicamente para los cursos comunes de programación de la Facultad de Ingeniería en concordancia con las disposiciones de los reglamentos universitarios:
+</p>
+
+* Reglamento General de Régimen de Estudios de Pregrado. Resolución N°2563 del año 2019.
+* Código de Ética. Resolución N°587 del año 2021.
+* Reglamento de Normas sobre Responsabilidad Estudiantil y Procedimientos Disciplinarios. Decreto N°206 del año 1986.
+* Reglamento Complementario de la Facultad de Ingeniería. Resoluciones N°723 y N°7965 del año 2023.
+
+Las instrucciones descritas se enmarcan dentro del artículo 8° del Decreto N°206 del año 1986.
+
+
+
 ## CÓDIGO DE HONOR
 <p align="justify">
 Bajo este Código de Honor, las y los estudiantes que están rindiendo este curso están obligados a seguir las siguientes reglas:
@@ -102,20 +115,32 @@ El equipo docente emplea herramientas automatizadas de detección de plagio que 
 -	**Cláusula de arrepentimiento.**
 
 <p align="justify">
-Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, <b>antes de que el equipo docente haya levantado una sospecha</b>, se considerará como un atenuante a la hora de definir las sanciones. 
+Si la/el estudiante cree haber incurrido en alguna falta al Código de Honor, puede denunciarse a sí mismo haciendo uso de la “Cláusula de arrepentimiento”. Esta cláusula no libera a la/el estudiante de su responsabilidad, o de la sanción sobre la evaluación en la que se incurrió, sin embargo, el hecho de que la/el estudiante reconozca su participación en una posible falta al Código de Honor, <b>antes de que el equipo docente haya levantado una sospecha</b>, se considerará como un atenuante a la hora de revisar internamente el caso. 
 La cláusula de arrepentimiento solo es válida durante los 3 días hábiles siguientes luego de una entrega.
 </p>
 
 -	**De la investigación.**
 
 <p align="justify">
-En caso de que se levante una sospecha frente a una entrega de una/un estudiante, se invocará un proceso de investigación. En dicho caso, el equipo docente determinará una comisión interna, compuesta por profesoras/es del curso, para revisar el caso. Dentro de dicha revisión se citará a la/el involucrada/o y posteriormente se definirá una sanción, que será informada vía correo institucional. 
+En caso de que se levante una sospecha frente a una entrega de una/un estudiante, se notificará a la/el estudiante del hecho vía correo electrónico a la dirección registrada en el sistema de registro curricular de la Facultad de Ingeniería. Paralelamente, el equipo de coordinación determinará una comisión interna compuesta por profesoras/es del curso para revisar los antecedentes del caso y abrir un expediente. Tras esta revisión el equipo de coordinación determinará si corresponde solicitar la ejecución de un proceso de investigación sumaria. En caso de que no exista falta, se informará al estudiante que se le considerará la calificación de la evaluación, en caso contrario, se informará de que se abrirá una investigación sumaria para esclarecer el caso.
 </p>
 
 <p align="justify">
-Una vez terminado el proceso, se informará del caso y la sanción a las unidades correspondientes.  En caso de que la/el estudiante desee apelar, deberá presentar su caso directamente en la Subdirección de Docencia del Departamento de Ingeniería Informática, quien, de ser necesario, determinará una comisión externa, que no incluirá profesoras/es del curso, para revisar nuevamente el caso. Una vez revisada esta apelación se informará del resultado a la/el estudiante vía correo institucional.
+El proceso de investigación sumaria está normado en el Decreto N°206 del año 1986 y corresponde a un procedimiento manejado directamente por Rectoría, en el cual, se designa a una/un funcionaria(o profesional o académica/o como Fiscal para que investigue el caso y de corresponder formule cargos. Mientras dure la investigación la/el estudiante puede seguir rindiendo la asignatura con normalidad, sin embargo, la calificación de la evaluación a investigar y todas las calificaciones asociadas quedan pendientes hasta que la investigación llegue a su fin. En caso de que la investigación sobrepase la duración del semestre, la/el estudiante podrá pedir el adelanto de las asignaturas que tienen a esta como prerrequisito directamente a la Subdirección de Docencia de su Departamento Académico.
 </p>
 
+<p align="justify">
+Una vez finalizada la investigación sumaria se determinará si el caso se sobresee, se absuelve o se aplican medidas disciplinarias. Las medidas disciplinarias contempladas en el reglamento son:
+</p>
+
+* <b>Amonestación oral:</b> Consiste en la reprensión o llamado de atención verbal al estudiante sancionado.
+* <b>Amonestación escrita:</b> Consiste en la reprensión o llamado de atención escrito al estudiante sancionado.
+* <b>Suspensión por uno o dos semestres académicos:</b> Consiste en la marginación del estudiante de las actividades académicas y la prohibición de ingreso a la Universidad, por un período determinado, de uno o dos semestres académicos.
+* <b>Expulsión:</b> Consiste en la separación definitiva de la Universidad.
+
+<p align="justify">
+Con excepción de la amonestación oral, todas las medidas disciplinarias se consignarán en el expediente académico del estudiante.
+</p>
 
 -	**Del levantamiento de una sanción.**
 
