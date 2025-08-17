@@ -1,0 +1,23 @@
+header {
+    position: relative;
+    width: 90%;
+    min-height: auto;
+    text-align: center;
+ }
+
+ header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 15px 15px;
+    text-align: right;
+ }
+
+ header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-content img {
+    float: right;
+    padding: 10px 10px;
+}
