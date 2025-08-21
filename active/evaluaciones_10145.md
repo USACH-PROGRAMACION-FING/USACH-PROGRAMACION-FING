@@ -95,29 +95,28 @@
 |Control 4 (C4)| 6.25%| 15-11-25 | Hasta Archivos |
 |Prueba 1 (P1) | 30%| 18-10-25 | Hasta Listas (incluyendo Listas de listas) |
 |Prueba 2 (P2) | 30%| 29-11-25 | Hasta Recursión |
+|Prueba Optativa (POR) | - | 08-12-25 | Hasta Recursión |
 
 El estudiante debe tener un **75%** de asistencia para aprobar la asignatura. Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_controles = (C1 + C2 + C3)/4
+promedio_controles = (C1 + C2 + C3 + C4)/4
 promedio_pruebas = (P1 + P2)/2
 promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
 if asistencia >= 0.75:
-  if promedio_final >= 4.5:
-    promedio_final = promedio_final
-  elif promedio_final >= 4.0 and promedio_tareas >= 4.0 and promedio_pruebas >= 4.0:
+  if promedio_final >= 4.0:
     promedio_final = promedio_final
   else:
-    promedio_final = promedio_final * 0.6 + examen * 0.4
+    promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
+    promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
 else:
    promedio_final = min([promedio_final, 3.5])
 ```
 
 
 ### PLANIFICACIÓN SEMANA A SEMANA
-
 
 #### CALENDARIO DE GUÍAS Y TAREAS
 
