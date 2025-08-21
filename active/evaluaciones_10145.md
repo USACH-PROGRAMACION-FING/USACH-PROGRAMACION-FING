@@ -58,14 +58,14 @@
     * Concepto de función.
     * Funciones nativas.
     * Funciones importadas.
-    * Uso de pip e instalación de módulos.
+    * Uso de `pip` e instalación de módulos.
     * Consulta de documentación.
 7. Funciones propias:
     * Sintaxis de funciones propias.
-    * Uso de return.
-    * Tiempo de definición vs tiempo de ejecución.
-    * Scope.
-    * Keyword arguments.
+    * Uso de `return`.
+    * Tiempo de definición versus tiempo de ejecución.
+    * *Scope*.
+    * *Keyword arguments*.
     * Parámetros por defecto
 
 
@@ -74,9 +74,9 @@
 8. Archivos:
     * Tipo de dato archivo.
     * Métodos y atributos de los archivos.
-    * Leer y escribir en archivos de texto plano y csv
+    * Leer y escribir en archivos de texto plano y CSV
     * Acceder a archivos por ruta absoluta y relativa.
-    * Encoding y mapas de caracteres.
+    * *Encoding* y mapas de caracteres.
 
 9. Recursión:
     * Concepto de recursión.
@@ -86,24 +86,24 @@
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha | Contenidos |
-| ------ | ------| ------- | ------- |
-|Actividades en clases (A)| 15%| En horario de clases | |
-|Control 1 (C1)| 5%| 26-04-25 | Hasta Iteraciones|
-|Control 2 (C2)| 5%| 31-05-25 | Hasta Funciones nativas e importadas |
-|Control 3 (C3)| 5%| 21-06-25 | Hasta Archivos |
-|Prueba 1 (P1) | 35%| 10-05-25 | Hasta Listas (incluyendo Listas de listas) |
-|Prueba 2 (P2) | 35%| 28-06-25 | Hasta Recursión |
+| Calificación            | Ponderación | Fecha   | Contenidos |
+| ----------------------- | ------------| ------- | ---------- |
+|Actividades en clases (A)| 15%         | En horario de clases | |
+|Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
+|Control 2 (C2)| 6.25%| 04-09-25 | Hasta Listas |
+|Control 3 (C3)| 6.25%| 30-10-25 | Hasta Funciones |
+|Control 4 (C4)| 6.25%| 15-11-25 | Hasta Archivos |
+|Prueba 1 (P1) | 30%| 18-10-25 | Hasta Listas (incluyendo Listas de listas) |
+|Prueba 2 (P2) | 30%| 29-11-25 | Hasta Recursión |
 
 El estudiante debe tener un **75%** de asistencia para aprobar la asignatura. Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-
-promedio_controles = (C1 + C2 + C3)/3
+promedio_controles = (C1 + C2 + C3)/4
 promedio_pruebas = (P1 + P2)/2
-promedio_final = round(A * 0.15 + promedio_controles * 0.15 + promedio_pruebas * 0.7, 1)
+promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
 if asistencia >= 0.75:
   if promedio_final >= 4.5:
     promedio_final = promedio_final
@@ -113,7 +113,6 @@ if asistencia >= 0.75:
     promedio_final = promedio_final * 0.6 + examen * 0.4
 else:
    promedio_final = min([promedio_final, 3.5])
-
 ```
 
 
@@ -124,49 +123,45 @@ else:
 
 | Semana | Fecha    | Temario semanal*                   | Evaluaciones          |
 |--------|----------|------------------------------------|-----------------------|
-| 1      | 17-03-25 | 01. Elementos básicos de Python    |                       |
-| 2      | 24-03-25 | 02. Strings e I/O                  |                       |
-| 3      | 31-03-25 | 03. Control de Flujo               |                       |
-| 4      | 07-04-25 | 04. Iteraciones                    |                       |
-| 5      | 14-04-25 | 05. Listas                         |                       |
-| 6      | 21-04-25 |                                    | C1                    |
-| 7      | 28-04-25 |                                    |                       |
-| 8      | 05-05-25 | Semana de pruebas - no hay clases  | P1                    |
-| 9      | 12-05-25 | 06. Funciones nativas e importadas |                       |
-| 10     | 26-05-25 | 07. Funciones propias              | C2                    |
-| 11     | 02-06-25 | 08. Archivos                       |                       |
-| 12     | 09-06-25 | 09. Recursión                      |                       |
-| 13     | 16-06-25 |                                    | C3                    |
-| 14     | 23-06-25 | Semana de pruebas - no hay clases  | P2                    |
-| 15     | 30-06-25 |                                    |                       |
-| 16     | 07-07-25 | Semana de pruebas - no hay clases  | Ex                    |
-| 17     | 14-07-25 |                                    |                       |
+| 1      | 18-08-25 | 01. Elementos básicos de Python    |                       |
+| 2      | 25/08/25 | Strings e I/O                      |                       |
+| 3      | 01/09/25 | Decisiones                         |                       |
+| 4      | 08/09/25 | Ciclos `while`                     | C1                    |
+| X      | 15/09/25 | Receso universitario               |                       |
+| 5      | 22/09/25 | Ciclos `for-in` y anidación        |                       |
+| 6      | 29/09/25 | Listas                             | C2                    |
+| 7      | 06/10/25 | Listas de listas                   |                       |
+| 8      | 13/10/25 | Semana de pruebas                  | P1                    |
+| 9      | 20/10/25 | Funciones nativas e importadas     |                       |
+| 10     | 27/10/25 | Funciones propias                  | C3                    |
+| 11     | 03/11/25 | Funciones propias y recursión      |                       |
+| 12     | 10/11/25 | Archivos                           | C4                    |
+| 13     | 17/11/25 | Archivos                           |                       |
+| 14     | 24/11/25 |                                    | P2                    |
+| 15     | 01/12/25 |                                    |                       |
+| 16     | 08/12/25 |                                    | POR                   |
+| 17     | 15/12/25 |                                    |                       |
 
 * Puede variar dependiendo de feriados, suspensiones y otros.
-
-
-
-
 
 ## LABORATORIO
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha | Contenidos |
-| ------ | ------| ------- | ------- |
-|Tarea 1 (T1)  | 33.3%| 28-04-25 | Hasta Listas |
-|Tarea 2 (T2)  | 33.3%| 02-06-25 | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3%| 23-06-25 | Hasta Recursión |
-|Proyecto (P1) | 1%   | 21-04-25 | Inscripción de grupos |
-|Proyecto (P2) | 9%   | 09-06-25 | Primer avance (presentación) |
-|Proyecto (P3) | 40%  | 23-06-25 |Proyecto terminado |
+| Calificación  | Ponderación | Fecha    | Contenidos |
+| ------------- |------ ------| -------- | ---------- |
+| Tarea 1 (T1)  | 33.3%       | 22-09-25 | Hasta Listas |
+| Tarea 2 (T2)  | 33.3%       | 25-10-25 | Hasta Funciones propias |
+| Tarea 3 (T3)  | 33.3%       | 22-11-25 | Hasta Recursión |
+| Proyecto (P1) | 1%          | 22-09-25 | Inscripción de grupos |
+| Proyecto (P2) | 9%          | 27-10-25 | Primer avance (presentación) |
+| Proyecto (P3) | 40%         | 01-12-25 | Proyecto terminado |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-
 promedio_tareas = (T1 + T2 + T3)/3
 promedio_proyecto (P1 * 0.02 + P2 * 0.18 + P3 * 0.8) 
 promedio_final = round((promedio_tareas + promedio_proyecto)/2, 1)
@@ -177,9 +172,7 @@ if asistencia >= 1:
     promedio_min([promedio_tareas, promedio_proyecto])
 else:
    promedio_final = min([promedio_final, 3.5])
-
 ```
-
 
 ## NOTA FINAL
 
@@ -189,9 +182,6 @@ if promedio_teoria >= 4.0 and promedio_laboratorio >= 4.0:
   promedio_final = round((promedio_teoria + promedio_laboratorio)/2)
 else:
   promedio_final = min(promedio_teoria, promedio_laboratorio)
-
 ```
 
 Si el estudiante aprueba solo teoría o solo laboratorio, la calificación se guarda por dos semestres consecutivos de acuerdo al artículo 6.4 del reglamento complementario de la Facultad de Ingeniería.
-
-

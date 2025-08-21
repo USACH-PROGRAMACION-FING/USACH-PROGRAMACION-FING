@@ -87,9 +87,9 @@
 
 ### RESUMEN DE EVALUACIONES
 
-|Calificación| Ponderación | Fecha | Contenidos |
-| ------ | ------| ------- | ------- |
-|Actividades en clases (A)| 15%| En horario de clases | |
+| Calificación            | Ponderación | Fecha   | Contenidos |
+| ----------------------- | ------------| ------- | ---------- |
+|Actividades en clases (A)| 15%         | En horario de clases | |
 |Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
 |Control 2 (C2)| 6.25%| 04-09-25 | Hasta Listas |
 |Control 3 (C3)| 6.25%| 30-10-25 | Hasta Funciones |
