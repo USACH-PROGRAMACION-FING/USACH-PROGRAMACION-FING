@@ -90,7 +90,7 @@
 | ----------------------- | ------------| ------- | ---------- |
 |Actividades en clases (A)| 15%         | En horario de clases | |
 |Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
-|Control 2 (C2)| 6.25%| 04-09-25 | Hasta Listas |
+|Control 2 (C2)| 6.25%| 04-10-25 | Hasta Listas |
 |Control 3 (C3)| 6.25%| 30-10-25 | Hasta Funciones |
 |Control 4 (C4)| 6.25%| 15-11-25 | Hasta Archivos |
 |Prueba 1 (P1) | 30%| 18-10-25 | Hasta Listas (incluyendo Listas de listas) |
