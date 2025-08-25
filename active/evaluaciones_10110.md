@@ -158,7 +158,7 @@ El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_tareas = (T1 + T2 + T3)/3
+promedio_tareas = (T1 + T2 + T3 - min(T1, T2, T3))/2
 promedio_final = round(promedio_tareas, 1)
 if asistencia >= 1:
     promedio_final = promedio_final
