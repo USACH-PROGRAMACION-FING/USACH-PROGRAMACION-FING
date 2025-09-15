@@ -112,7 +112,7 @@ d) Expulsión.
 
 **ARTICULO 8º.-** Con excepción de la amonestación oral, todas las medidas disciplinarias se consignarán en el expediente académico que debe llevar Registro Curricular.
 
-**ARTICULO 9º.-** El conocimiento y la resolución de las infracciones a las normas de buen comportamiento y de sana convivencia universitaria sa sujetarán a un procedimiento especial denominado "investigación sumaria". que podra ser solicitado por el Rector, el Prorector o los
+**ARTICULO 9º.-** El conocimiento y la resolución de las infracciones a las normas de buen comportamiento y de sana convivencia universitaria sa sujetarán a un procedimiento especial denominado "investigación sumaria". que podra ser solicitado por el Rector, el Prorrector o los
 Decanos.
 
 **ARTICULO 10º.-**  Para estos efectos deléganse las atribuciones disciplinarias que se indican, en las siguientes autoridades de la Corporación:
@@ -133,7 +133,7 @@ El cargo de fiscal será desempeñado sin perjuicio de las actividades docentes 
 
 **ARTICULO 14º.-** La suspensión provisional es una medida preventiva de caracter excepcional que se aplicará en los casos que sea estrictamente necesaria para el desarrollo de la investigación.
 
-Sin perulcio de lo establecido en el artículo 11°, también el Rector, al Prorector o el o los Decanos podrán de oficio o a petición del fiscal, disponer la suspensión provisional durante el curso de una investigación.
+Sin perulcio de lo establecido en el artículo 11°, también el Rector, al Prorrector o el o los Decanos podrán de oficio o a petición del fiscal, disponer la suspensión provisional durante el curso de una investigación.
 
 Esta suspensión durará hasta que se resuelva en definitiva la investigación sumaria, pudiendo ser dejada sin efecto en cualquier momento por las referidas autoridadee, ya sea de oficio a a petición fundada del fiscal, previo Informe del Departamento Jurídico.
 
@@ -170,9 +170,9 @@ a) Tener excelente rendimiento académico.
 
 b) Prestar o haber prestado servicios distinguidos a la Universidad.
 
-**ARTICULO 22º.-** Evacuado el dictamen que se refiere el artículo 20°, el fiscal remitirá los antecedentes de la investigación sumaria al Departamento Jurídico el cual, con su informe, lo remitirá al Rector cuando el fiscal proponge la expulsión, al Prorector cuando el fiscal sugiera suspensión o al o los Decanos que correspondan cuando proponga las medidas disciplinarias de amonestación oral o escrita.
+**ARTICULO 22º.-** Evacuado el dictamen que se refiere el artículo 20°, el fiscal remitirá los antecedentes de la investigación sumaria al Departamento Jurídico el cual, con su informe, lo remitirá al Rector cuando el fiscal proponge la expulsión, al Prorrector cuando el fiscal sugiera suspensión o al o los Decanos que correspondan cuando proponga las medidas disciplinarias de amonestación oral o escrita.
 
-En los casos que el fiscal proponga distintas medidas disciplinarias para los inculpados, cuya aplicación corresponde diferentes autoridades, al Departamento Jurídico enviará con su informe primero la investigación sumaria al Rector y posteriormente al Prorector y Decano o Decanos, a menos que el primero resuelva aplicar sólo la sanción de expulsión. En tal caso no se enviarán los antecedentes al Prorrector y Decano o Decanos. 
+En los casos que el fiscal proponga distintas medidas disciplinarias para los inculpados, cuya aplicación corresponde diferentes autoridades, al Departamento Jurídico enviará con su informe primero la investigación sumaria al Rector y posteriormente al Prorrector y Decano o Decanos, a menos que el primero resuelva aplicar sólo la sanción de expulsión. En tal caso no se enviarán los antecedentes al Prorrector y Decano o Decanos. 
 
 Si el Rector estimara que correspondiera aplicar la suspensión y la amonestación en lugar de la expulsión propuesta, enviará previo informe del Departamento Jurídico, los antecedentes al Prorrector y/o al Decano o Decanas. Si el Prorrector estimare que correspondiera aplicar la expulsión en luger de la suspensión enviará, previo intorme del Departamento Juridico los antecedentes al Rector pare su resolución. De igual modo. ai al Prorrector estimara que cortespondiera aplicar la amonestación en lugar de la suspensión enviará, previo informe del Departamento Juridico, los antecedentes al Decano o Decanos para su resolución.
 
