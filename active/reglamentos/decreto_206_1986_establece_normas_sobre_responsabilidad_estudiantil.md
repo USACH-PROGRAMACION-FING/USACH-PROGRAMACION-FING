@@ -17,6 +17,7 @@ Texto extraído de la [Contraloría Universitaria]([https://www.google.com](http
 **ARTICULO 1º.-** Los alumnos de la Universidad de Santiago de Chile estarán sujetos en cuanto a sus derechos y responsabilidades a las normas y procedimientos contenidos en el presente Reglamento.
 
 **ARTICULO 2º.-** Entre otros, son derechos de los alumnos:
+
 a) Recibir de la Universidad la mejor formación en los estudios que siguen en ella, dentro de las posibilidades y de los medios que ésta les pueda brindar.
 
 b) Estar informados en forma veraz, cabal y oportuna de los asuntos de carácter académico o reglamentario que incidan en su condición de estudiantes.
