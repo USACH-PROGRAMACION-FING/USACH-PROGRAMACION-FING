@@ -147,14 +147,14 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-| Calificación  | Ponderación | Fecha    | Contenidos |
-| ------------- |------ ------| -------- | ---------- |
-| Tarea 1 (T1)  | 33.3%       | 22-09-25 | Hasta Listas |
-| Tarea 2 (T2)  | 33.3%       | 25-10-25 | Hasta Funciones propias |
-| Tarea 3 (T3)  | 33.3%       | 22-11-25 | Hasta Recursión |
-| Proyecto (P1) | 1%          | 22-09-25 | Inscripción de grupos |
-| Proyecto (P2) | 9%          | 27-10-25 | Primer avance (presentación) |
-| Proyecto (P3) | 40%         | 01-12-25 | Proyecto terminado |
+| Calificación  | Ponderación | Fecha    | Contenidos                   |
+| ------------- |------ ------| -------- | ---------------------------- |
+| Tarea 1 (T1)  | 16.7%       | 30-09-25 | Hasta Listas                 |
+| Tarea 2 (T2)  | 16.7%       | 25-10-25 | Hasta Funciones propias      |
+| Tarea 3 (T3)  | 16.7%       | 22-11-25 | Hasta Recursión              |
+| Proyecto (P1) | 2%          | 06-10-25 | Inscripción de grupos        |
+| Proyecto (P2) | 8%          | 27-10-25 | Primer avance (presentación) |
+| Proyecto (P3) | 40%         | 01-12-25 | Proyecto terminado           |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
