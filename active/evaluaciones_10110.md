@@ -151,8 +151,8 @@ else:
 | Calificación | Ponderación | Fecha | Contenidos |
 | ------------ | ------| -------- | ------- |
 |Tarea 1 (T1)  | 33.3% | 22-09-25 | Hasta Listas |
-|Tarea 2 (T2)  | 33.3% | 25-10-25 | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3% | 22-11-25 | Hasta Recursión |
+|Tarea 2 (T2)  | 33.3% | POR DEFINIR | Hasta Funciones propias |
+|Tarea 3 (T3)  | 33.3% | POR DEFINIR | Hasta Recursión |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
