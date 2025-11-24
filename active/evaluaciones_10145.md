@@ -147,7 +147,7 @@ else:
 
 | Calificación | Ponderación | Fecha | Contenidos |
 | ------------ | ------| -------- | ------- |
-|Tarea 1 (T1)  | 33.3% | 22-09-25 | Hasta Listas |
+|Tarea 1 (T1)  | 33.3% | POR DEFINIR | Hasta Listas |
 |Tarea 2 (T2)  | 33.3% | POR DEFINIR | Hasta Funciones propias |
 |Tarea 3 (T3)  | 33.3% | POR DEFINIR | Hasta Recursión |
 
