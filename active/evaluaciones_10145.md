@@ -145,14 +145,11 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-| Calificación  | Ponderación | Fecha    | Contenidos                   |
-| ------------- |------ ------| -------- | ---------------------------- |
-| Tarea 1 (T1)  | 16.7%       | 30-09-25 | Hasta Listas                 |
-| Tarea 2 (T2)  | 16.7%       | 25-10-25 | Hasta Funciones propias      |
-| Tarea 3 (T3)  | 16.7%       | 22-11-25 | Hasta Recursión              |
-| Proyecto (P1) | 2%          | 06-10-25 | Inscripción de grupos        |
-| Proyecto (P2) | 8%          | 27-10-25 | Primer avance (presentación) |
-| Proyecto (P3) | 40%         | 01-12-25 | Proyecto terminado           |
+| Calificación | Ponderación | Fecha | Contenidos |
+| ------------ | ------| -------- | ------- |
+|Tarea 1 (T1)  | 33.3% | 22-09-25 | Hasta Listas |
+|Tarea 2 (T2)  | 33.3% | POR DEFINIR | Hasta Funciones propias |
+|Tarea 3 (T3)  | 33.3% | POR DEFINIR | Hasta Recursión |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
@@ -160,15 +157,9 @@ El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
 promedio_tareas = (T1 + T2 + T3 - min(T1, T2, T3))/2
-promedio_tareas = round(promedio_tareas, 1)
-promedio_proyecto (P1 * 0.02 + P2 * 0.18 + P3 * 0.8)
-promedio_proyecto = round(promedio_proyecto, 1)
-promedio_final = round((promedio_tareas + promedio_proyecto)/2, 1)
+promedio_final = round(promedio_tareas, 1)
 if asistencia >= 1:
-  if promedio_tareas >= 4.0 and promedio_proyecto >= 4.0:
     promedio_final = promedio_final
-  else:
-    promedio_min([promedio_tareas, promedio_proyecto])
 else:
    promedio_final = min([promedio_final, 3.5])
 ```
