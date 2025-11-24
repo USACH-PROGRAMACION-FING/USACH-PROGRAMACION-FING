@@ -90,29 +90,27 @@
 | ----------------------- | ------------| ------- | ---------- |
 |Actividades en clases (A)| 15%         | En horario de clases | |
 |Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
-|Control 2 (C2)| 6.25%| 04-10-25 | Hasta Listas |
-|Control 3 (C3)| 6.25%| 30-10-25 | Hasta Funciones |
-|Control 4 (C4)| 6.25%| 15-11-25 | Hasta Archivos |
-|Prueba 1 (P1) | 30%| 18-10-25 | Hasta Listas (incluyendo Listas de listas) |
-|Prueba 2 (P2) | 30%| 29-11-25 | Hasta Recursión |
-|Prueba Optativa (POR) | - | 08-12-25 | Hasta Recursión |
+|Control 2 (C2)| 9.375%| POR DEFINIR | Hasta Listas |
+|Control 3 (C3)| 9.375%| POR DEFINIR| Hasta Funciones |
+|Prueba 1 (P1) | 30%| 06-12-25 | Hasta Listas (incluyendo Listas de listas) |
+|Prueba 2 (P2) | 30%| 10-01-26 | Hasta Recursión |
+|Prueba Optativa (POR) | - | 17-01-26 | Hasta Recursión |
 
-El estudiante debe tener un **75%** de asistencia para aprobar la asignatura. Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
+Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_controles = (C1 + C2 + C3 + C4)/4
+promedio_controles = (C1 * 25 + C2 * 37.5 + C3 * 37.5)/100
 promedio_pruebas = (P1 + P2)/2
 promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
-if asistencia >= 0.75:
-  if promedio_final >= 4.0:
-    promedio_final = promedio_final
-  else:
-    promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
-    promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
+
+if promedio_final >= 4.0:
+  promedio_final = promedio_final
 else:
-   promedio_final = min([promedio_final, 3.5])
+  promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
+  promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
+
 ```
 
 
