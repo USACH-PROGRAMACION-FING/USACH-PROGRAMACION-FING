@@ -90,8 +90,8 @@
 | ----------------------- | ------------| ------- | ---------- |
 |Actividades en clases (A)| 15%         | En horario de clases | |
 |Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
-|Control 2 (C2)| 9.375%| POR DEFINIR | Hasta Listas |
-|Control 3 (C3)| 9.375%| POR DEFINIR| Hasta Funciones |
+|Control 2 (C2)| 9.375%| 20-12-25 | Hasta Listas |
+|Control 3 (C3)| 9.375%| 03-01-26 | Hasta Funciones |
 |Prueba 1 (P1) | 30%| 06-12-25 | Hasta Listas (incluyendo Listas de listas) |
 |Prueba 2 (P2) | 30%| 10-01-26 | Hasta Recursión |
 |Prueba Optativa (POR) | - | 17-01-26 | Hasta Recursión |
@@ -147,16 +147,16 @@ else:
 
 | Calificación | Ponderación | Fecha | Contenidos |
 | ------------ | ------| -------- | ------- |
-|Tarea 1 (T1)  | 33.3% | POR DEFINIR | Hasta Listas |
-|Tarea 2 (T2)  | 33.3% | POR DEFINIR | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3% | POR DEFINIR | Hasta Recursión |
+|Tarea 1 (T1)  | 33.3% | 09-12-25 | Hasta Listas |
+|Tarea 2 (T2)  | 33.3% | 27-12-25 | Hasta Funciones propias |
+|Tarea 3 (T3)  | 33.3% | 12-01-26 | Hasta Recursión |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_tareas = (T1 + T2 + T3 - min(T1, T2, T3))/2
+promedio_tareas = (T1 + T2 + T3)/3
 promedio_final = round(promedio_tareas, 1)
 if asistencia >= 1:
     promedio_final = promedio_final
