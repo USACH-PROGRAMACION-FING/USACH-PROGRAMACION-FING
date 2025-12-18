@@ -91,8 +91,8 @@
 | ----------------------- | ------------| ------- | ---------- |
 |Actividades en clases (A)| 15%         | En horario de clases | |
 |Control 1 (C1)| 6.25%| 13-09-25  | Hasta Decisiones |
-|Control 2 (C2)| 9.375%| 20-12-25 | Hasta Listas |
-|Control 3 (C3)| 9.375%| 05-01-26 | Hasta Funciones |
+|Control 2 (C2)| 9.375%| 20-12-25 | Hasta Funciones  |
+|Control 3 (C3)| 9.375%| 05-01-26 | Hasta Archivos   |
 |Prueba 1 (P1) | 30%| 06-12-25 | Hasta Listas (incluyendo Listas de listas) |
 |Prueba 2 (P2) | 30%| 10-01-26 | Hasta Recursión |
 |Prueba Optativa (POR) | - | 17-01-26 | Hasta Recursión |
