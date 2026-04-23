@@ -86,30 +86,27 @@
 
 ### RESUMEN DE EVALUACIONES
 
-| Calificación            | Ponderación | Fecha   | Contenidos |
-| ----------------------- | ------------| ------- | ---------- |
-|Actividades en clases (A)| 15%         | En horario de clases | |
-|Control 1 (C1)| 6.25%| 13-09-25 | Hasta Decisiones |
-|Control 2 (C2)| 9.375%| 20-12-25 | Hasta Funciones |
-|Control 3 (C3)| 9.375%| 05-01-26 | Hasta Archivos  |
-|Prueba 1 (P1) | 30%| 06-12-25 | Hasta Listas (incluyendo Listas de listas) |
-|Prueba 2 (P2) | 30%| 10-01-26 | Hasta Recursión |
-|Prueba Optativa (POR) | - | 17-01-26 | Hasta Recursión |
+| Calificación            | Ponderación | Fecha                | Contenidos |
+| ----------------------- | ------------| -------------------- | ---------- |
+|Actividades en clases (A)| 10%         | En horario de clases |            |
+|Prueba 1 (P1)            | 45%         | 06-06-26             | Hasta Listas (incluyendo Listas de listas) |
+|Prueba 2 (P2)            | 45%         | 11-07-26             | Hasta Recursión |
+|Prueba Optativa (POR)    | -           | 25-07-26             | Hasta Recursión |
+
 
 Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_controles = (C1 * 25 + C2 * 37.5 + C3 * 37.5)/100
 promedio_pruebas = (P1 + P2)/2
-promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
+promedio_final = round(A * 0.1 + promedio_pruebas * 0.9, 1)
 
 if promedio_final >= 4.0:
   promedio_final = promedio_final
 else:
   promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
-  promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
+  promedio_final = round(A * 0.1 + promedio_pruebas * 0.9, 1)
 ```
 
 ### PLANIFICACIÓN SEMANA A SEMANA
