@@ -10,7 +10,7 @@
  
 **UNIDAD 1: FUNDAMENTOS DE PROGRAMACIÓN**
 1. Introducción a Python:
-    * Tipos de datos: (int, float, complex, boolean, str).
+    * Tipos de datos: (`int`, `float`, `complex`, `boolean`, `str`).
     * Operadores aritméticos (+, -, *, /, //, %, **).
     * Precedencia.
     * Expresiones.
@@ -23,24 +23,24 @@
     * Tipo de dato string.
     * Métodos de los strings.
     * Indexación básica.
-    * Función input().
-    * Función print().
+    * Función `input()`.
+    * Función `print()`.
 3. Control de flujo:
     * Operadores de comparación (<, <=, >, >=, !=, ==).
-    * Operadores booleanos (not, and, or).
-    * Control de flujo usando if.
-    * Control de flujo alternativo usando if-else.
-    * Control de flujo alternativo usando if-elif-else.
+    * Operadores booleanos (`not`, `and`, `or`).
+    * Control de flujo usando `if`.
+    * Control de flujo alternativo usando `if-else`.
+    * Control de flujo alternativo usando `if-elif-else`.
     * Anidamiento.
 4. Iteración:
     * Concepto de iteración y tautología.
-    * Iteración usando while.
+    * Iteración usando `while`.
     * Uso de variables para iterar y para acumular.
     * Trazas de código.
     * Iteración sobre objetos.
-    * Iteración usando for-in.
-    * Función range().
-    * Diferencias entre for-in y while.
+    * Iteración usando `for-in`.
+    * Función `range()`.
+    * Diferencias entre `for-in` y `while`.
 5.  Tipos de datos compuestos: Listas
     * Concepto de objeto.
     * Tipo de dato lista.
@@ -50,7 +50,7 @@
     * Mutabilidad.
     * Paso por referencia.
     * Listas de listas.
-    * Conversión de string a listas (split, strip, join)
+    * Conversión de *string* a listas (`split`, `strip`, `join`)
 
 **UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
 
@@ -110,34 +110,32 @@ if promedio_final >= 4.0:
 else:
   promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
   promedio_final = round(A * 0.15 + promedio_controles * 0.25 + promedio_pruebas * 0.6, 1)
-
 ```
-
 
 ### PLANIFICACIÓN SEMANA A SEMANA
 
 #### CALENDARIO DE GUÍAS Y TAREAS
 
-| Semana | Fecha    | Temario semanal*                   | Evaluaciones          |
-|--------|----------|------------------------------------|-----------------------|
-| 1      | 18-08-25 | 01. Elementos básicos de Python    |                       |
-| 2      | 25/08/25 | Strings e I/O                      |                       |
-| 3      | 01/09/25 | Decisiones                         |                       |
-| 4      | 08/09/25 | Ciclos `while`                     | C1                    |
-| X      | 15/09/25 | Receso universitario               |                       |
-| 5      | 22/09/25 | Ciclos `for-in` y anidación        |                       |
-| 6      | 29/09/25 | Listas                             | C2                    |
-| 7      | 06/10/25 | Listas de listas                   |                       |
-| 8      | 13/10/25 | Semana de pruebas                  | P1                    |
-| 9      | 20/10/25 | Funciones nativas e importadas     |                       |
-| 10     | 27/10/25 | Funciones propias                  | C3                    |
-| 11     | 03/11/25 | Funciones propias y recursión      |                       |
-| 12     | 10/11/25 | Archivos                           | C4                    |
-| 13     | 17/11/25 | Archivos                           |                       |
-| 14     | 24/11/25 |                                    | P2                    |
-| 15     | 01/12/25 |                                    |                       |
-| 16     | 08/12/25 |                                    | POR                   |
-| 17     | 15/12/25 |                                    |                       |
+| Semana | Fecha      | TEMA TEORÍA | Evaluaciones Teoría | Evaluaciones Lab Comunes | Proyecto |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 30/03/2026 | Introducción y elementos básicos (Tipos de datos, operadores, expresiones) | | | LIBRE |
+| 2 | 06/04/2026 | Strings e I/O | | | |
+| 3 | 13/04/2026 | Decisiones | | | |
+| 4 | 20/04/2026 | Ciclos `while` y `for-in` | | | |
+| 5 | 27/04/2026 | Listas | | T1 | *Kick-off* |
+| 6 | 04/05/2026 | Listas de listas | | | |
+| 7 | 11/05/2026 | | | | Entrega 1 (Ficha de proyecto) |
+| X | 18/05/2026 | Semana de receso | Semana de receso | Semana de receso | Semana de receso |
+| 8 | 25/05/2026 | Funciones nativas e importadas | | T2 | |
+| 9 | 1/06/2026 | | P1 | | |
+| 10 | 08/06/2026 | Funciones propias | | | Entrega 2 (Avance) |
+| 11 | 15/06/2026 | Funciones propias y recursión | | | |
+| 12 | 22/06/2026 | Archivos | | | |
+| 13 | 29/06/2026 | Archivos | | T3 | |
+| 14 | 6/07/2026 | | P2 | | |
+| 15 | 13/07/2026 | | PER | | Entrega 3 (Entrega y presentación final) |
+| 16 | 20/07/2026 | | POR | | |
+| 17 | 27/07/2026 | | | | |
 
 * Puede variar dependiendo de feriados, suspensiones y otros.
 
@@ -145,11 +143,14 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-| Calificación | Ponderación | Fecha | Contenidos |
-| ------------ | ------| -------- | ------- |
-|Tarea 1 (T1)  | 33.3% | 09-12-25 | Hasta Listas |
-|Tarea 2 (T2)  | 33.3% | 30-12-25 | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3% | 12-01-26 | Hasta Recursión |
+| Calificación   | Ponderación | Fecha    | Contenidos |
+| -------------- | ------------| -------- | ---------- |
+| Tarea 1 (T1)   | 16.6%       | 27-04-26 | Hasta Listas |
+| Entrega 1 (P1) | 2%          | 27-04-26 | Ficha de proyecto |
+| Tarea 2 (T2)   | 16.6%       | 25-05-26 | Hasta Funciones propias |
+| Entrega 2 (P2) | 8%          | 25-05-26 | Avance |
+| Tarea 3 (T3)   | 16.6%       | 20-06-26 | Hasta Recursión |
+| Entrega 3 (P3) | 40%         | 20-06-26 | Entrega y presentación final |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
@@ -157,7 +158,8 @@ El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
 promedio_tareas = (T1 + T2 + T3)/3
-promedio_final = round(promedio_tareas, 1)
+nota_proyecto = 0.04*P1 + 0.16*P2 + 0.8*P3
+promedio_final = round(promedio_tareas*0.5 + nota_proyecto*0.5, 1)
 if asistencia >= 1:
     promedio_final = promedio_final
 else:
