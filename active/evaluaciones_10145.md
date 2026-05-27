@@ -114,25 +114,25 @@ else:
 #### CALENDARIO DE GUÍAS Y TAREAS
 
 | Semana | Fecha      | TEMA TEORÍA | Evaluaciones Teoría | Evaluaciones Lab Comunes | Proyecto |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | 30/03/2026 | Introducción y elementos básicos (Tipos de datos, operadores, expresiones) | | | LIBRE |
-| 2 | 06/04/2026 | Strings e I/O | | | |
-| 3 | 13/04/2026 | Decisiones | | | |
-| 4 | 20/04/2026 | Ciclos `while` y `for-in` | | | |
-| 5 | 27/04/2026 | Listas | | T1 | *Kick-off* |
-| 6 | 04/05/2026 | Listas de listas | | | |
-| 7 | 11/05/2026 | | | | Entrega 1 (Ficha de proyecto) |
-| X | 18/05/2026 | Semana de receso | Semana de receso | Semana de receso | Semana de receso |
-| 8 | 25/05/2026 | Funciones nativas e importadas | | T2 | |
-| 9 | 1/06/2026 | | P1 | | |
-| 10 | 08/06/2026 | Funciones propias | | | Entrega 2 (Avance) |
-| 11 | 15/06/2026 | Funciones propias y recursión | | | |
-| 12 | 22/06/2026 | Archivos | | | |
-| 13 | 29/06/2026 | Archivos | | T3 | |
-| 14 | 6/07/2026 | | P2 | | |
-| 15 | 13/07/2026 | | PER | | Entrega 3 (Entrega y presentación final) |
-| 16 | 20/07/2026 | | POR | | |
-| 17 | 27/07/2026 | | | | |
+| :----- | :--------- | :--- | :--- | :--- | :--- |
+| 1      | 30/03/2026 | Introducción y elementos básicos (Tipos de datos, operadores, expresiones) | | | LIBRE |
+| 2      | 06/04/2026 | Strings e I/O | | | |
+| 3      | 13/04/2026 | Decisiones | | | |
+| 4      | 20/04/2026 | Ciclos `while` y `for-in` | | | |
+| 5      | 27/04/2026 | Listas | | T1 | *Kick-off* |
+| 6      | 04/05/2026 | Listas de listas | | | |
+| 7      | 11/05/2026 | | | | Entrega 1 (Ficha de proyecto) |
+| X      | 18/05/2026 | Semana de receso | Semana de receso | Semana de receso | Semana de receso |
+| 8      | 25/05/2026 | Funciones nativas e importadas | | T2 | |
+| 9      | 01/06/2026 | Funciones propias | | | |
+| 10     | 08/06/2026 | | P1 | | |
+| 11     | 15/06/2026 | Funciones propias y recursión | | | Entrega 2 (Avance) |
+| 12     | 22/06/2026 | Archivos | | | |
+| 13     | 29/06/2026 | Archivos | | T3 | |
+| 14     | 06/07/2026 | | P2 | | |
+| 15     | 13/07/2026 | | PER | | Entrega 3 (Entrega y presentación final) |
+| 16     | 20/07/2026 | | POR | | |
+| 17     | 27/07/2026 | | | | |
 
 * Puede variar dependiendo de feriados, suspensiones y otros.
 
@@ -140,14 +140,14 @@ else:
 
 ### RESUMEN DE EVALUACIONES
 
-| Calificación   | Ponderación | Fecha    | Contenidos |
-| -------------- | ------------| -------- | ---------- |
-| Tarea 1 (T1)   | 16.6%       | 27-04-26 | Hasta Listas |
-| Entrega 1 (P1) | 2%          | 27-04-26 | Ficha de proyecto |
-| Tarea 2 (T2)   | 16.6%       | 25-05-26 | Hasta Funciones propias |
-| Entrega 2 (P2) | 8%          | 25-05-26 | Avance |
-| Tarea 3 (T3)   | 16.6%       | 20-06-26 | Hasta Recursión |
-| Entrega 3 (P3) | 40%         | 20-06-26 | Entrega y presentación final |
+| Calificación   | Ponderación | Fecha    | Contenidos                   |
+| -------------- | ------------| -------- | ---------------------------- |
+| Tarea 1 (T1)   | 16.6%       | 27-04-26 | Hasta Listas                 |
+| Entrega 1 (P1) | 2%          | 27-04-26 | Ficha de proyecto            |
+| Tarea 2 (T2)   | 16.6%       | 25-05-26 | Hasta Funciones propias      |
+| Entrega 2 (P2) | 8%          | 15-06-26 | Avance                       |
+| Tarea 3 (T3)   | 16.6%       | 29-06-26 | Hasta Recursión              |
+| Entrega 3 (P3) | 40%         | 13-07-26 | Entrega y presentación final |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 

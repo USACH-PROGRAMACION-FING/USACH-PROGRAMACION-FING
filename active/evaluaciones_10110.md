@@ -124,8 +124,8 @@ else:
 | 7      | 11/05/2026 |                                                                            |                     |                  |
 | X      | 18/05/2026 | Semana de receso                                                           | Semana de receso    | Semana de receso |
 | 8      | 25/05/2026 | Funciones nativas e importadas                                             |                     | T2               |
-| 9      | 01/06/2026 |                                                                            | P1                  |                  |
-| 10     | 08/06/2026 | Funciones propias                                                          |                     |                  |
+| 9      | 01/06/2026 | Funciones propias                                                          |                     |                  |
+| 10     | 08/06/2026 |                                                                            | P1                  |                  |
 | 11     | 15/06/2026 | Funciones propias y recursión                                              |                     |                  |
 | 12     | 22/06/2026 | Archivos                                                                   |                     |                  |
 | 13     | 29/06/2026 | Archivos                                                                   |                     | T3               |
@@ -143,7 +143,7 @@ else:
 | ------------ | ------| -------- | ------- |
 |Tarea 1 (T1)  | 33.3% | 27-04-26 | Hasta Listas |
 |Tarea 2 (T2)  | 33.3% | 25-05-26 | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3% | 20-06-26 | Hasta Recursión |
+|Tarea 3 (T3)  | 33.3% | 29-06-26 | Hasta Recursión |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
