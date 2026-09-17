@@ -90,12 +90,14 @@
 |Actividades en clases (A)| 10%         | En horario de clases |            |
 |Prueba 1 (P1)            | 45%         | 13-07-26             | Strings |
 |Prueba 2 (P2)           | 45%         | 18-12-26             | Hasta Recursión |
-|Prueba Optativa (POR)^1^      | -           | 08-01-27             | Hasta Recursión |
-|Prueba Recuperativa (PER)^2^  | -           | 04-01-27             | - |
+|Prueba Optativa (POR)<sup>1</sup> | -           | 08-01-27             | Hasta Recursión |
+|Prueba Recuperativa (PER)<sup>2</sup> | -           | 04-01-27             | - |
 
 Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
-^1^ La Prueba Optativa de Reemplazo (POR) reemplaza la nota que más perjudica al estudiante a todo evento, es decir, tanto si la nota es mejor, como si es peor a la nota original.
-^2^ La Prueba Especial Recuperativa (PER) reemplaza la nota de Prueba 1 o Prueba 2 según corresponda. La prueba solo pueden rendirla estudiantes debidamente justificados por la Dirección de Docencia de la Facultad de Ingeniería. Los contenidos solo contemplan la evaluación a recuperar.
+
+<sup>1</sup> La Prueba Optativa de Reemplazo (POR) reemplaza la nota que más perjudica al estudiante a todo evento, es decir, tanto si la nota es mejor, como si es peor a la nota original.
+
+<sup>2</sup> La Prueba Especial Recuperativa (PER) reemplaza la nota de Prueba 1 o Prueba 2 según corresponda. La prueba solo pueden rendirla estudiantes debidamente justificados por la Dirección de Docencia de la Facultad de Ingeniería. Los contenidos solo contemplan la evaluación a recuperar.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
