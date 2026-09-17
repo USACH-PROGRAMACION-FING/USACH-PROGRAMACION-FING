@@ -18,11 +18,7 @@
     * Operador asignación (=). 
     * Variables.
     * Reglas de nombres para variables.
-2. Strings e I/O:
-    * Concepto de objeto, atributo y método.
-    * Tipo de dato string.
-    * Métodos de los strings.
-    * Indexación básica.
+2. I/O:
     * Función `input()`.
     * Función `print()`.
 3. Control de flujo:
@@ -41,7 +37,27 @@
     * Iteración usando `for-in`.
     * Función `range()`.
     * Diferencias entre `for-in` y `while`.
-5.  Tipos de datos compuestos: Listas
+ 
+ **UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
+ 5. Funciones nativas e importadas:
+    * Concepto de función.
+    * Funciones nativas.
+    * Funciones importadas.
+    * Uso de `pip` e instalación de módulos.
+    * Consulta de documentación.
+6. Funciones propias:
+    * Sintaxis de funciones propias.
+    * Uso de `return`.
+    * Tiempo de definición versus tiempo de ejecución.
+    * *Scope*.
+    * *Keyword arguments*.
+    * Parámetros por defecto
+7. Strings:
+    * Concepto de objeto, atributo y método.
+    * Tipo de dato string.
+    * Métodos de los strings.
+    * Indexación básica.  
+8.  Tipos de datos compuestos: Listas
     * Concepto de objeto.
     * Tipo de dato lista.
     * Métodos de las listas (selección, agregación, actualización y eliminación).
@@ -51,23 +67,6 @@
     * Paso por referencia.
     * Listas de listas.
     * Conversión de *string* a listas (`split`, `strip`, `join`)
-
-**UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
-
-6. Funciones nativas e importadas:
-    * Concepto de función.
-    * Funciones nativas.
-    * Funciones importadas.
-    * Uso de `pip` e instalación de módulos.
-    * Consulta de documentación.
-7. Funciones propias:
-    * Sintaxis de funciones propias.
-    * Uso de `return`.
-    * Tiempo de definición versus tiempo de ejecución.
-    * *Scope*.
-    * *Keyword arguments*.
-    * Parámetros por defecto
-
 
 **UNIDAD 3: PROGRAMACIÓN PARA INGENIERÍA**
 
@@ -89,23 +88,33 @@
 | Calificación            | Ponderación | Fecha                | Contenidos |
 | ----------------------- | ------------| -------------------- | ---------- |
 |Actividades en clases (A)| 10%         | En horario de clases |            |
-|Prueba 1 (P1)            | 45%         | 25-07-26             | Hasta Listas (incluyendo Listas de listas) |
-|Prueba 2 (P2)            | 45%         | 14-08-26             | Hasta Recursión |
-|Prueba Optativa (POR)    | -           | 21-08-26             | Hasta Recursión |
+|Prueba 1 (P1)            | 45%         | 13-07-26             | Strings |
+|Prueba 2 (P2)           | 45%         | 18-12-26             | Hasta Recursión |
+|Prueba Optativa (POR)^1^      | -           | 08-01-27             | Hasta Recursión |
+|Prueba Recuperativa (PER)^2^  | -           | 04-01-27             | - |
 
 Todas las evaluaciones son acumulativas, es decir, la materia de la evaluación anterior se incluye en las evaluaciones que siguen.
+^1^ La Prueba Optativa de Reemplazo (POR) reemplaza la nota que más perjudica al estudiante a todo evento, es decir, tanto si la nota es mejor, como si es peor a la nota original.
+^2^ La Prueba Especial Recuperativa (PER) reemplaza la nota de Prueba 1 o Prueba 2 según corresponda. La prueba solo pueden rendirla estudiantes debidamente justificados por la Dirección de Docencia de la Facultad de Ingeniería. Los contenidos solo contemplan la evaluación a recuperar.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_pruebas = (P1 + P2)/2
-promedio_final = round(A * 0.1 + promedio_pruebas * 0.9, 1)
+if rindio_POR:
+ reemplazo_P1 = 0.45 * (7.0 - P1)
+ reemplazo_P2 = 0.45 * (7.0 - P2)
+ reemplazo_A = 0.45 * (7.0 - A)
+ if reemplazo_P1 >= reemplazo_P2 and reemplazo_P1 >= reemplazo_A:
+  P1 = POR
+ elif reemplazo_P2 >= reemplazo_A:
+  P2 = POR
+ else:
+  A = POR
 
-if promedio_final >= 4.0:
-  promedio_final = promedio_final
-else:
-  promedio_pruebas = (P1 + P2 + POR - min(P1, P2, POR))/2
-  promedio_final = round(A * 0.1 + promedio_pruebas * 0.9, 1)
+promedio_final = round(P1 * 0.45 + P2 * 0.45 + A * 0.10, 1)
+
+if asistencia < 75:
+ promedio_final = min([promedio_final, 3.5])     
 ```
 
 ## LABORATORIO
@@ -113,16 +122,17 @@ else:
 
 | Calificación | Ponderación | Fecha | Contenidos |
 | ------------ | ------| -------- | ------- |
-|Tarea 1 (T1)  | 33.3% | 27-04-26 | Hasta Listas |
-|Tarea 2 (T2)  | 33.3% | 27-07-26 | Hasta Funciones propias |
-|Tarea 3 (T3)  | 33.3% | 17-08-26 | Hasta Recursión |
+|Tarea 1 (T1)  | 25% | 24-10-26 | Hasta Iteración |
+|Tarea 2 (T2)  | 25% | 07-11-26 | Hasta Funciones propias |
+|Tarea 3 (T3)  | 25% | 28-11-26 | Hasta Listas |
+|Tarea 4 (T4)  | 25% | 12-12-26 | Hasta Archivos |
 
 El estudiante debe tener un **100%** de asistencia para aprobar la asignatura.
 
 El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
-promedio_tareas = (T1 + T2 + T3)/3
+promedio_tareas = (T1 + T2 + T3 + T4)/4
 promedio_final = round(promedio_tareas, 1)
 if asistencia >= 1:
     promedio_final = promedio_final
