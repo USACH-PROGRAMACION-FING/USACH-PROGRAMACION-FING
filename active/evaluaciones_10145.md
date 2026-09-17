@@ -39,6 +39,7 @@
     * Diferencias entre `for-in` y `while`.
  
  **UNIDAD 2: FUNCIONES Y ABSTRACCIÓN**
+ 
  5. Funciones nativas e importadas:
     * Concepto de función.
     * Funciones nativas.
