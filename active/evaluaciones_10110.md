@@ -4,6 +4,21 @@
 
 # CONTENIDOS Y FECHAS DE EVALUACIONES
 
+> ### 📅 Calendario del curso
+>
+> Todas las fechas de este documento están publicadas en el calendario del curso,
+> con recordatorios automáticos:
+>
+> * **[Suscribirse en Google Calendar](https://calendar.google.com/calendar/render?cid=c_fbada88162c14abc80ac1eb1d3f67f693301e4138e99b8863b7ad00a65499fc2%40group.calendar.google.com)**
+>   (recomendado: las actualizaciones te llegan solas)
+> * [Ver en el navegador](https://calendar.google.com/calendar/embed?src=c_fbada88162c14abc80ac1eb1d3f67f693301e4138e99b8863b7ad00a65499fc2%40group.calendar.google.com&ctz=America%2FSantiago)
+>   (no requiere iniciar sesión)
+> * [Suscribirse desde Outlook o Apple Calendar (.ics)](https://calendar.google.com/calendar/ical/c_fbada88162c14abc80ac1eb1d3f67f693301e4138e99b8863b7ad00a65499fc2%40group.calendar.google.com/public/basic.ics)
+>
+> Si hubiera alguna discrepancia entre el calendario y este documento, **prevalece
+> lo indicado en este documento**.
+
+
 ## TEORÍA 
 
 ### CONTENIDOS
