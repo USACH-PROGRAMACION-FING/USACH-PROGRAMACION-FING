@@ -155,17 +155,12 @@ El cálculo de la nota se hace siguiendo el siguiente algoritmo:
 
 ```python
 if rindio_POR:
- reemplazo_P1 = 0.45 * (7.0 - P1)
- reemplazo_P2 = 0.45 * (7.0 - P2)
- reemplazo_A = 0.1 * (7.0 - A)
- if reemplazo_P1 >= reemplazo_P2 and reemplazo_P1 >= reemplazo_A:
-  P1 = POR
- elif reemplazo_P2 >= reemplazo_A:
-  P2 = POR
+ promedio = round(max([(POR + P2)/2 * 0.9 + A * 0.1,
+                       (P1 + POR)/2 * 0.9 + A * 0.1,
+                       (P1 + P2)/2 * 0.9 + POR * 0.1])
+                 ,1)
  else:
-  A = POR
-
-promedio_final = round(P1 * 0.45 + P2 * 0.45 + A * 0.10, 1)
+  promedio = round((P1 + P2)/2 * 0.9  + A * 0.1, 1)
 
 if asistencia < 0.75:
  promedio_final = min([promedio_final, 3.5])     
