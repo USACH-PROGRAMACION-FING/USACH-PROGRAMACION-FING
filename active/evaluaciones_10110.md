@@ -160,7 +160,7 @@ if rindio_POR:
                        (P1 + POR)/2 * 0.9 + A * 0.1,
                        (P1 + P2)/2 * 0.9 + POR * 0.1])
                  ,1)
- else:
+else:
   promedio = round((P1 + P2)/2 * 0.9  + A * 0.1, 1)
 
 if asistencia < 0.75:
